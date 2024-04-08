@@ -10,6 +10,7 @@ subject.on("event", (result) => {
     console.log("yeet");
   }
 });
+
 // observer 2
 debugger;
 subject.on("event", (result) => {

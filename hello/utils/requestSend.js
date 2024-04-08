@@ -10,7 +10,11 @@ const req = https.request("https://www.google.com", (res) => {
     console.log("\ndata-end");
   });
 });
+//updated node support fetch
+const res = fetch('https://www.google.com');
+
 
 module.exports = {
   req,
+  res
 };

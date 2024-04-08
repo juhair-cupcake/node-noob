@@ -1,0 +1,13 @@
+{
+  "name": "hello",
+  "version": "1.0.0",
+  "description": "learn and dev",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "juhuir",
+  "license": "MIT"
+}

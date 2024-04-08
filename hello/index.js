@@ -1,4 +1,4 @@
-const { subject, req } = require("./utils");
+const { subject, req, res } = require("./utils");
 
 // get hi from terminal
 if (process.argv[2] === "hi") {
@@ -16,6 +16,9 @@ debugger;
 subject.emit("event", "pos");
 subject.emit("event", "neg");
 req.end();
+res.then((x) => {
+  console.log(x);
+});
 
 /*
 how node work?
