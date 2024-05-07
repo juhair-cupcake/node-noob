@@ -1,7 +1,7 @@
 const http = require("http");
 //cors works with white listing
 
-//basic database
+//fake database
 const data = [
   {
     id: 0,
